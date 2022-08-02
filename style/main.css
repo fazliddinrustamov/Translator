@@ -1,0 +1,81 @@
+body {
+  background-color: deepskyblue;
+}
+
+.container {
+  max-width: 530px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+  margin-top: 200px;
+  border-radius: 30px;
+  height: 300px;
+  width: 500px;
+  background-color: rgb(131, 221, 199);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.8s ease;
+}
+
+.content:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
+.content-inner {
+  margin-top: 60px;
+}
+
+.heading {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 45px;
+  color: royalblue;
+}
+
+.subtitle {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  font-size: 25px;
+  color: rgb(0, 171, 238);
+  font-weight: bold;
+}
+
+.form-itself {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.enter-box {
+  margin-bottom: 20px;
+}
+
+.enter-day {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(224, 227, 228);
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: rgb(224, 227, 228);
+}
+
+.result-translation {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  color: rgb(85, 125, 218);
+}
